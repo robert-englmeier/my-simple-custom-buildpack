@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+BUILD_DIR=$1
+echo "SRID Release Script called"
+echo "BUILD_DIR:" $BUILD_DIR

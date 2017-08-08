@@ -1,0 +1,31 @@
+---
+language: ocr
+default_versions:
+- name: ocr
+  version: 2.0.0
+url_to_dependency_map:
+- match: ocr-(\d+\.\d+\.\d+)
+  name: ocr
+  version: $1
+  
+exclude_files:
+- ".git/"
+- ".gitignore"
+- ".gitmodules"
+- ".rspec"
+- cf_spec/
+- log/
+- test/
+- buildpack-packager/
+- staticfile_buildpack-*v*.zip
+- pkg/
+- ".envrc"
+- scripts/
+- src/
+dependencies:
+- name: ocr
+  version: 2.0.0
+  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.13.3-linux-x64-53917f43.tgz
+  md5: 53917f43684d6ec825ca469ab586c0d2
+  cf_stacks:
+  - cflinuxfs2
