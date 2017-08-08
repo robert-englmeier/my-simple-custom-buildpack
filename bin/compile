@@ -15,17 +15,10 @@ echo "BUILD_DIR:" $BUILD_DIR
 echo "CACHE_DIR:" $CACHE_DIR
 echo "ENV_DIR:" $ENV_DIR
 
-echo "BUILD_DIR:"
-ls $BUILD_DIR
-echo "CACHE_DIR:"
-ls $CACHE_DIR
-echo "ENV_DIR:"
-ls $ENV_DIR
-
 buildpack=$(cd "$(dirname $0)/.." && pwd)
-pwd
-ls
+
 mkdir $BUILD_DIR/content
 cp content/* $BUILD_DIR/content
-ls $BUILD_DIR
+
+
 echo "********* end of SRID Compile Script called"
