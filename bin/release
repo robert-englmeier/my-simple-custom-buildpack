@@ -6,6 +6,6 @@ echo "BUILD_DIR:" $BUILD_DIR
 
 ls $BUILD_DIR
 
-ls $BUILD_DIR/content
+#ls $BUILD_DIR/content
 
-cat $BUILD_DIR/content/test.txt
+#cat $BUILD_DIR/content/test.txt
