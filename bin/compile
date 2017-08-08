@@ -7,3 +7,4 @@ CACHE_DIR=$2
 echo "SRID Compile Script called"
 echo "BUILD_DIR:" $BUILD_DIR
 echo "CACHE_DIR:" $CACHE_DIR
+echo "and of SRID Compile Script called"
