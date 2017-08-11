@@ -20,5 +20,12 @@ buildpack=$(cd "$(dirname $0)/.." && pwd)
 mkdir $BUILD_DIR/content
 cp content/* $BUILD_DIR/content
 
+echo "++++++++++"
+pwd
+echo "++++++++++"
+ls /var/lib
+echo "++++++++++"
+ls /tmp
+echo "++++++++++"
 
 echo "********* end of SRID Compile Script called"
