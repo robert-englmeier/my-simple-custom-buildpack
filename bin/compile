@@ -25,7 +25,7 @@ pwd
 echo "++++++++++"
 ls /var/lib
 echo "++++++++++"
-find . -print
+find $BUILD_DIR -print
 echo "++++++++++"
 
 echo "********* end of SRID Compile Script called"
